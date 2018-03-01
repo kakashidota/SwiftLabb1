@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let weather = WeatherGetter()
+        weather.getWeather(city: "Czestochowa")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
