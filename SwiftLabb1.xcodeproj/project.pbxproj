@@ -13,6 +13,7 @@
 		0FCC55EF2046F56500054959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCC55EE2046F56500054959 /* Assets.xcassets */; };
 		0FCC55F22046F56500054959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCC55F02046F56500054959 /* LaunchScreen.storyboard */; };
 		0FCC55FA2048459600054959 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCC55F92048459600054959 /* WeatherGetter.swift */; };
+		0FE9BE6D20493EA600E16C73 /* CityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE9BE6C20493EA600E16C73 /* CityClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0FCC55F12046F56500054959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FCC55F32046F56500054959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FCC55F92048459600054959 /* WeatherGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; };
+		0FE9BE6C20493EA600E16C73 /* CityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0FCC55E72046F56500054959 /* AppDelegate.swift */,
 				0FCC55E92046F56500054959 /* ViewController.swift */,
 				0FCC55EB2046F56500054959 /* Main.storyboard */,
+				0FE9BE6C20493EA600E16C73 /* CityClass.swift */,
 				0FCC55EE2046F56500054959 /* Assets.xcassets */,
 				0FCC55F02046F56500054959 /* LaunchScreen.storyboard */,
 				0FCC55F32046F56500054959 /* Info.plist */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FCC55EA2046F56500054959 /* ViewController.swift in Sources */,
+				0FE9BE6D20493EA600E16C73 /* CityClass.swift in Sources */,
 				0FCC55FA2048459600054959 /* WeatherGetter.swift in Sources */,
 				0FCC55E82046F56500054959 /* AppDelegate.swift in Sources */,
 			);

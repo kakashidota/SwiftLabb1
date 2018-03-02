@@ -49,7 +49,7 @@ class WeatherGetter {
 //                    print("Weather main: \(weather["weather"]![0]!["main"]!!)")
 //                    print("Weather description: \(weather["weather"]![0]!["description"]!!)")
 //                    print("Weather icon ID: \(weather["weather"]![0]!["icon"]!!)")
-//                    
+                    
                     print("Temperature: \(weather["main"]!["temp"]!!)")
                     print("Humidity: \(weather["main"]!["humidity"]!!)")
                     print("Pressure: \(weather["main"]!["pressure"]!!)")
