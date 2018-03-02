@@ -44,11 +44,21 @@ class WeatherGetter {
                     
                     print("Longitude: \(weather["coord"]!["lon"]!!)")
                     print("Latitude: \(weather["coord"]!["lat"]!!)")
+
                     
-//                    print("Weather ID: \(weather["weather"]![0]!["id"]!!)")
-//                    print("Weather main: \(weather["weather"]![0]!["main"]!!)")
-//                    print("Weather description: \(weather["weather"]![0]!["description"]!!)")
-//                    print("Weather icon ID: \(weather["weather"]![0]!["icon"]!!)")
+                    var firstWeather = weather["weather"]![0] as! [String : AnyObject]
+                    
+                    
+                    
+                    print("Weather ID: \(firstWeather["main"]!)")
+                    
+                    
+                    
+//                    print("Weather main: \(weather["weather"][0]!["main"]!!)")
+//                    print("Weather description: \(weather["weather"][0]!["description"]!!)")
+//                    print("Weather icon ID: \(weather["weather"][0]!["icon"]!!)")
+//
+              //      print ("WEATHEROUTSIDE IS! : \(weather["weather"]!["main"]!!)")
                     
                     print("Temperature: \(weather["main"]!["temp"]!!)")
                     print("Humidity: \(weather["main"]!["humidity"]!!)")
@@ -69,15 +79,15 @@ class WeatherGetter {
                     
                 }
                 
-//
-//                print("Data:\n\(data!)")
-//                let dataString = String(data: data!, encoding: String.Encoding.utf8 )
-//                print("Human-Readable data:\n\(dataString!)")
+
+                print("Data:\n\(data!)")
+                let dataString = String(data: data!, encoding: String.Encoding.utf8 )
+                print("Human-Readable data:\n\(dataString!)")
             }
         }
         
         // The data task is set up...launch it!
         dataTask.resume()
+
     }
-    
 }

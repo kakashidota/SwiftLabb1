@@ -9,16 +9,19 @@
 import Foundation
 
 class City : NSObject{
-    var city : String = ""
-    var country : String = ""
+    var city : String
+    var country : String
+    var weather : String
     var long = Float()
     var lat = Float()
     var temp = Float()
     
     
-    init (city : String , country : String, long : Float, lat : Float, temp : Float){
+    
+    init (city : String , country : String, weather : String ,long : Float, lat : Float, temp : Float){
         self.city = city
         self.country = country
+        self.weather = weather
         self.long = long
         self.lat = lat
         self.temp = temp
